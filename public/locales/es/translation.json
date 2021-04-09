@@ -1,0 +1,35 @@
+{
+
+    "nav": {
+        "story": "Nuestro Cuento",
+        "wedding": "La Boda",
+        "location": "La Locación",
+        "registry": "Regalos"
+    },
+
+    "hero": {
+        "tag": "Nos vamos a casar! Síguenos aquí para celebrar virtualmente con nosotros."
+    },
+
+    "story": {
+        
+
+    },
+
+    "wedding": {
+
+    },
+
+    "location": {
+
+    },
+
+    "registry": {
+
+    },
+
+    "footer": {
+        "contact": "Contáctenos",
+        "made": "Hizo con ❤️ por Sarah E."
+    }
+}
