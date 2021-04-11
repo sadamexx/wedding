@@ -1,4 +1,8 @@
 
+a:visited{
+  color:black;
+}
+
 .title {
   font-family: 'Tangerine';
   font-size: 3.5em;

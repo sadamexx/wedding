@@ -17,7 +17,7 @@ const Registry = () => {
     return(
         <div style={{padding: '2% 5%'}}>
             <div>
-                <h1 className='title' style={{textAlign: 'center'}}>Registry</h1>
+                <h1 className='title' style={{textAlign: 'center'}}>{t('registry.title')}</h1>
             </div>
             <Container>
                 <Row style={{paddingTop: '2%', paddingBottom: '5%'}}>

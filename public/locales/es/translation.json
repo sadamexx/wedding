@@ -12,19 +12,24 @@
     },
 
     "story": {
+        "title": "Nuestro Cuento",
         "designed": "Había demasiadas circunstancias fuera de lo común para que fuera 'suerte' o 'casualidad'. Creo plenamente que esto fue cuidadosamente diseñado y orquestado por un Dios amoroso. -Sarah",
         "hesays": "Pensé que el amor ya no era para mí, hasta que la conocí. Ahora no quiero imaginar mi vida sin ella. -Manuel",
-        "beginning": "Sarah y Manuel se conocieron mientras Sarah visitaba la República Dominicana. Después de conocerse una vez, los dos se dieron cuenta de que tenían mucho en común. Su conexión se hizo más fuerte incluso después de que Sarah regresó a los Estados Unidos. Después de darse cuenta de que tenían los mismos objetivos, Manuel no tardó en hacer la pregunta.",
-        "proposal": "Sarah fue a visitar a Manuel después de graduarse. Da la casualidad era su cumpleaños. Después de un día divertido en su lugar favorito, la playa, regresaron al motel. Cuando Sarah entró, vio la habitación decorada para su cumpleaños. ¡Fue entonces cuando Manuel le hizo el mejor regalo pidiéndole que se casara con él!",
+        "beginning": "Sarah y Manuel se conocieron mientras Sarah visitaba República Dominicana. Los dos se dieron cuenta de que tenían mucho en común y compartían intereses y objetivos similares. Su conexión se hizo más fuerte incluso después de que Sarah regresó a los Estados Unidos. Estar en dos países diferentes fue difícil, y Manuel sabía que quería cerrar esa distancia y estar con la mujer de la que se enamoraba.",
+        "proposal": "La propuesta: Sarah fue a visitar a Manuel después de graduarse. Da la casualidad, era el fin de semana de su cumpleaños cuando ella llegó. En su cumpleaños, Manuel planeó un día divertido en su lugar favorito, la playa. Al final del día regresaron al motel. Cuando Sarah entró, vio la habitación decorada para su cumpleaños. ¡Fue entonces cuando Manuel le hizo el mejor regalo pidiéndole que se casara con él!",
         "she": "Sarah es de soleada California. Le apasiona viajar y conocer nuevas culturas. Recientemente se graduó en Desarrollo de Software. Sarah ama la música y tiene debilidad por los animales y la naturaleza. ¡Ella hará sus maletas para comenzar su nueva vida en la República Dominicana como nueva esposa y madrastra!",
-        "aboutHer": "Hay muchas razones por las que amas a alguien. Sentí que siempre la había conocido, teníamos una gran y natural conexión. Ella es una persona cariñosa y les da a todos su amor. Me siento bendecido. -Manuel",
+        "titleHer": "Mas acerca de Sarah:",
+        "aboutHer": " 'Hay muchas razones por las que amas a alguien. Sentí que siempre la había conocido, teníamos una gran y natural conexión. Ella es una persona cariñosa y les da a todos su amor. Me siento bendecido.' -Manuel",
+        "titleHim": "Mas acerca de Manuel:",
         "he": "Manuel nació y se crió en República Dominicana. Tiene dos hijos de 14 y 4 años que son el centro de su vida. Un gato de todos los oficios, si necesita sus manos, ¡Manuel puede hacerlo! Un verdadero dominicano, Manuel ama la danza y la música.",
-        "aboutHim": "Nunca me hubiera imaginado encontrar a un hombre como Manuel. Es dulce, cariñoso, tierno y tiene el alma más suave y bondadosa. Además de todo eso, me trata como si realmente fuera un tesoro para él. Me siento tan bendecido y honrado de que me eligiera. -Sarah",
+        "titleThem": "Como se seiente:",
+        "aboutHim": " 'Nunca me hubiera imaginado encontrar a un hombre como Manuel. Es dulce, cariñoso, tierno y tiene el alma más suave y bondadosa. Además de todo eso, me trata como si realmente fuera un tesoro para él. Me siento tan orgullosa y honrado de que me eligiera.' -Sarah",
         "they": "Los dos se casarán el 30 de Mayo y a partir de ahí comenzarán su 'felices para siempre' en Santo Domingo."
 
     },
 
     "wedding": {
+        "title": "La Boda",
         "scripture": "'Para todo hay un tiempo, y un tiempo para todo propósito debajo del cielo ... Un tiempo para nacer, un tiempo para morir ... un tiempo para llorar y un tiempo para reír ... . Un tiempo para AMAR ... Todo lo hizo hermoso en su tiempo '-Eclesiastés 3: 1-11 ",
         "time": "Ahora es NUESTRO momento",
         "venue": "Nos casaremos en El Mesón de la Cava en Santo Domingo el 30 de Mayo. Este restaurante único está ubicado en una caverna natural de piedra caliza. La belleza habla por sí misma.",
@@ -40,6 +45,7 @@
     },
 
     "registry": {
+        "title": "Regalos",
         "summary": "Comenzar una nueva vida en un nuevo país no solo es emocionante y aterrador, es una experiencia grande. Sarah va a dejar toda sus posesiones, que son muchos! (Ella le gusta mucha comprar ropa) Va a ser dificil por ella, pero esta lista por empezar su vida como una esposa.",
         "explain": "Quieren crear un lugar seguro y cómodo para llamar hogar. Se alquilarán un apartamento, y estan pidiendo su generosa ayuda para comprar los electrodomésticos que necesitan para su hogar.",
         "thankful": "'Realmente apreciamos todo el apoyo que nos brinde. Ninguna cantidad es demasiado pequeña. Incluso lo que podría pensar que es una pequeña donación puede ser de gran ayuda. A continuación, proporcionamos formas de usted puede donar todo lo que pueda. Si no puede donar a través de los medios provistos, no dude en contactarnos para otras ideas. Nos sentimos honrados por todo el amor y apoyo que continúa mostrándonos y estamos emocionados de comenzar este capítulo de nuestra vida juntos.' -Sarah y Manuel"

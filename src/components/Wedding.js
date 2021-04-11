@@ -16,7 +16,7 @@ const Wedding = () => {
         <Container fluid={true} 
         className='themed-container' 
         >
-            <h1 className='title' style={{textAlign: 'center'}}> The Wedding</h1>
+            <h1 className='title' style={{textAlign: 'center'}}>{t('wedding.title')}</h1>
             <Row  className='wedd'>
                 <Col sm='6' lg='7' className="offset-lg-4" 
                 style={{paddingTop: '3%'}}>
@@ -61,7 +61,9 @@ const Wedding = () => {
                         <img src={wedding} style={{width: "100%"}}/>
                     </Col>
                     <Col xs="12" lg="6" className='d-flex align-items-center justify-content-center'>
+                    <a style={{textDecoration: 'none', textDecorationColor: 'black'}} target='_blank' href=''>
                     <p style={{paddingTop: '2%'}}>{t('wedding.date')}</p>
+                    </a>
                     </Col>
                     
                 </Row>   
