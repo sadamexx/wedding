@@ -23,7 +23,7 @@ const Wedding = () => {
                     <h3 style={{
                         textAlign: 'center', 
                         textSpacing: '1.1', 
-                        textShadow: '1px 1px 20px white',
+                        textShadow: '2px 2px 30px #e4bad4',
                         }}>{t('wedding.scripture')}</h3>
                 </Col>
                 <Col sm='6' lg='7' className="offset-lg-4">
@@ -31,7 +31,7 @@ const Wedding = () => {
                 style={{
                     textAlign: 'center',
                     textSpacing: '1.1', 
-                    textShadow: '1px 1px 20px white',
+                    textShadow: '2px 2px 10px white',
                      }}>{t('wedding.time')}</h1>
                 </Col>
             </Row>

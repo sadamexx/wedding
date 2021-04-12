@@ -68,21 +68,21 @@ const Registry = () => {
             </Card>
             </Col>
 
-            <Col xs="12" s="6" md="4" >
-                <Card className="card-main" style={{marginTop: '20px'}}>
-                    <a style={{textDecoration: 'none'}} target='_blank' href='https://paypal.me/sadamexx209'>
+            <Col xs="12" s="6" md="4"   >
+                <Card  className="card-main" style={{marginTop: '20px'}}>
+                    <a style={{ textDecoration: 'none'}} target='_blank' href='https://paypal.me/sadamexx209'>
                         <CardImg 
                         src={paypal}                        
                         alt='paypal'
                         top width="100%"
                         />
-                            <CardBody>
-                                <CardTitle 
+                            <CardBody >
+                                <CardTitle
                                 tag="h5" 
                                 style={{textAlign: 'center', paddingTop: '10px'}}
-                                className="mb-2 text-muted" >
+                                className="mb-2 text-muted"  >
 
-                                PayPal: sadamexx209</CardTitle>
+                                PayPal: @sadamexx209</CardTitle>
                             </CardBody>
                     </a>
                 </Card>

@@ -11,37 +11,64 @@ import juan_dolio from '../assets/juan_dolio.png';
 import flag from '../assets/flag.png';
 import malecon from '../assets/malecon.png';
 import dancing from '../assets/dancing.png';
+import jungle from '../assets/jungle443.png';
+import boats from '../assets/boats443.png';
+import beach443 from '../assets/beach443.png';
+
+import beach1040 from '../assets/1040beach.png';
+import market1040 from '../assets/1040market.png';
+import puntaCana1040 from '../assets/1040puntaCana.png';
+import cave1040 from '../assets/1040cave.png';
+import temple1040 from '../assets/1040temple.png';
+import mountain1040 from '../assets/1040mountain.png';
+import fortress1040 from '../assets/1040fortress.png';
+import colon1040 from '../assets/1040colon.png';
+import boats1040 from '../assets/1040boats.png';
+import calle1040  from '../assets/1040calle.png';
 import {Container, Row, Col} from 'reactstrap';
 
 const items = [
-    {
-      src: beach,
-      key: '1'
-    },
-    {
-      src: colon,
-      key: '2'
-    },
-    {
-      src: mountain,
-      key: '3'
-    },    
-    {
-      src: market,
-      key: '4'
-    },
-    {
-      src: plants,
-      key: '5'
-    },
-    {
-      src: juan_dolio,
-      key: '5'
-    },
-    {
-      src: cave,
-      key: '6'
-    }
+  {
+    src: puntaCana1040,
+    key: '1'
+  },
+  {
+    src: colon1040,
+    key: '2'
+  },
+  {
+    src: market1040,
+    key: '3'
+  },
+  {
+    src: temple1040,
+    key: '4'
+  },
+  {
+    src: cave1040,
+    key: '5'
+  },
+  {
+    src: fortress1040,
+    key: '6'
+  },
+  {
+    src: boats1040,
+    key: '7'
+  },
+  {
+    src: mountain1040,
+    key: '8'
+  },
+  {
+    src: beach1040,
+    key: '9'
+  },
+  {
+    src: calle1040,
+    key: '10'
+  }
+      
   ];
 const Location = () => {
     const {t, i18n } = useTranslation();
