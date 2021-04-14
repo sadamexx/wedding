@@ -30,17 +30,16 @@ a:visited{
 }
 
 .nameCol{
-  background-image: url('./assets/greenz.jpg');
-  background-position:  right top;
+  background-image: url('./assets/green3.jpg');
+  background-position:  center top; 
+  
  
-  background-repeat: no-repeat;
-  background-size: cover;
 
 }
 
 .heroName {
   font-family: 'Tangerine';
-  font-weight: 500;
+  font-weight: 600;
   font-size: 6em;
   color: white;
 }

@@ -15,7 +15,7 @@ const Hero = () => {
   return (
       <Container fluid={true} className='themed-container heroContainer'>
         <Row className='nameCol'>
-          <Col xs='12' s={{ size: 'auto', offset: 1 }}  lg='4' >
+          <Col xs='12' s={{ size: 'auto', offset: 1 }}  lg='4'>
               <h1  className='heroName'>Sarah & Manuel</h1>
               <br/>
               <p style={{color: 'white', fontWeight: '400'}}>{t('hero.tag')}</p>
