@@ -53,6 +53,7 @@
     },
 
     "footer": {
+        "start": "Ingreso",
         "contact": "Contáctenos",
         "made": "Hizo con ❤️  por Sarah E."
     },

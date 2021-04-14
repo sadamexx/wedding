@@ -22,6 +22,13 @@ const Footer = () => {
     <div>
       <Navbar color="light" light expand='sm'>
           <Nav className="mx-auto" navbar>
+          <NavItem>
+              <NavLink                
+                href="/">
+                {t('footer.start')}{'  '}
+                <FontAwesomeIcon icon='home'/>
+              </NavLink>
+            </NavItem>
 
             <NavItem>
               <NavLink 

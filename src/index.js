@@ -13,9 +13,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './i18next';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faCheckSquare, faCoffee, faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import { faCheckSquare, faCoffee, faEnvelope, faHome} from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faCheckSquare, faCoffee, faEnvelope)
+library.add(fab, faCheckSquare, faCoffee, faEnvelope, faHome)
 
 ReactDOM.render(
   <Router>
