@@ -37,7 +37,7 @@ const Registry = () => {
                         <p style={{paddingTop: '2%'}}>{t('registry.explain')}</p>
                     </Col>
 
-                    <Col >
+                    <Col className='order-first order-lg-last'>
                         <img src={kitchen} style={{width: "100%"}}/>
                     </Col>
                 </Row>    

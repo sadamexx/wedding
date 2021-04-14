@@ -49,11 +49,11 @@ const Story = () => {
                 </Row>
 
             <Row style={{paddingBottom: '5%'}}>
-                <Col style={{paddingTop: '3%'}} xs="12" lg="6" className='d-flex align-items-center justify-content-center'>
+                <Col style={{paddingTop: '3%'}} xs="12" lg="6" className='d-flex align-items-center justify-content-center '>
                     <p style={{paddingTop: '2%'}}>{t('story.proposal')}</p>
                 </Col> 
-                <Col style={{paddingTop: '3%'}}>
-                    <img src={proposal} style={{width: "100%"}}/>
+                <Col style={{paddingTop: '3%'}} className='order-first order-lg-last'>
+                    <img src={proposal} style={{width: "100%"}} />
                 </Col>                                   
             </Row>
 

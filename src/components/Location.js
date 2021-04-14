@@ -92,7 +92,7 @@ const Location = () => {
               <p style={{paddingTop: '2%'}}>{t('location.diverse')}</p>
             </Col>
 
-            <Col >
+            <Col className='order-first order-lg-last'>
                 <img src={malecon} style={{width: "100%"}}/>
             </Col>
           </Row>    

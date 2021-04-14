@@ -55,7 +55,7 @@ const Wedding = () => {
                     <p style={{paddingTop: '2%'}}>{t('wedding.covid')}</p>
                     </Col>
 
-                    <Col >
+                    <Col className='order-first order-lg-last'>
                         <img src={masks} style={{width: "100%"}}/>
                     </Col>
                 </Row>
