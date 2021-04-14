@@ -55,6 +55,17 @@
     "footer": {
         "contact": "Contact Us",
         "made": "Made with ❤️  by Sarah E. "
+    },
+
+    "form": {
+        "name": "Your Name",
+        "email": "Your email",
+        "message": "Your message",
+        "submit": "Submit",
+        "toastHeadSuccess": "Success!",
+        "toastBodySuccess": "Your email has been sent. Please allow 2 business days for a repsonse. Thank you!",
+        "toastHeadFail": "Failure",
+        "toastBodyFail": "Your email has not been sent. Please email directly at manuelysarahrd@gmail.com. Thank you!"
     }
 
 }

@@ -15,6 +15,7 @@ import Story from './components/Story';
 import Wedding from './components/Wedding';
 import Location from './components/Location';
 import Registry from './components/Registry';
+import Contact from './components/Form';
 
 
 
@@ -35,6 +36,7 @@ function App() {
           <Route exact path='/wedding' component={Wedding} />
           <Route exact path='/location' component={Location} />
           <Route exact path='/registry' component={Registry} />
+          <Route exact path='/contact' component={Contact} />
           <Route path='/' component={Hero} />
         
         </Switch>

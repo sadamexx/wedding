@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
   Collapse,
   Navbar,
@@ -50,17 +51,18 @@ const Footer = () => {
             </NavItem>
 
             <NavItem>
-              <NavLink 
-                href="/">
+              <NavLink
+              target="_blank"
+                href="https://www.facebook.com/manuel.suarezgomez.9">
                 Manuel's{'   '}
                 <FontAwesomeIcon icon={['fab', 'facebook-square']}/>
               </NavLink>
             </NavItem>
 
             <NavItem>              
-              <NavLink >
+              <NavLink href='/contact'>                
               {t('footer.contact')}:{'   '}
-                <FontAwesomeIcon icon='envelope'/>             
+                <FontAwesomeIcon icon='envelope'/>       
               </NavLink>
             </NavItem>
             
