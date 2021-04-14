@@ -14,14 +14,16 @@ import './i18next';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faCheckSquare, faCoffee, faEnvelope, faHome} from '@fortawesome/free-solid-svg-icons';
+import ScrollToTop from './Scroll';
 
 library.add(fab, faCheckSquare, faCoffee, faEnvelope, faHome)
 
 ReactDOM.render(
   <Router>
-    <Suspense fallback={(<div>Loading ***</div>)}>
-      <App />
-    </Suspense>
+    <ScrollToTop />
+      <Suspense fallback={(<div>*** Loading ***</div>)}>
+        <App />
+      </Suspense>
   </Router>,
   document.getElementById('root')
 );
