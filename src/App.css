@@ -29,28 +29,26 @@ a:visited{
   font-size: 1.1rem;
 }
 
-.heroContainer {
-  background-image: url("../src/assets/tropz.jpg");
-  height: 80vh;
+.nameCol{
+  background-image: url('./assets/greenz.jpg');
+  background-position:  right top;
+ 
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center left;
-  object-fit: cover;
-  object-position: 80% 0%;
+
 }
+
 .heroName {
   font-family: 'Tangerine';
-  font-weight: 800;
+  font-weight: 500;
   font-size: 6em;
   color: white;
-  
-
-}
-.special {
-  display:none;
 }
 
-.rowina {
-  padding-top: 10%; 
+
+.clickems {
+  font-family: 'Tangerine';
+  font-size: 4em;
 }
 
 .new {

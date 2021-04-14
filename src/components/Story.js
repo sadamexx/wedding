@@ -1,5 +1,4 @@
-import react from 'react';
-import smiles2 from '../assets/smiles2.jpg';
+import React from 'react';
 import collage from '../assets/collage.jpg';
 import bayahibe from '../assets/bayahibe.png';
 import proposal from '../assets/proposal.png';

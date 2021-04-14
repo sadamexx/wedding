@@ -11,8 +11,7 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
-  Button
+  DropdownItem
 } from 'reactstrap';
 
 const NavBar = (props) => {
@@ -29,16 +28,16 @@ const NavBar = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink id="nav.story" href="/story">{t('nav.story')}</NavLink>
+              <NavLink href="/story">{t('nav.story')}</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink id="nav.wedding" href="/wedding">{t('nav.wedding')}</NavLink>
+              <NavLink href="/wedding">{t('nav.wedding')}</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink id="nav.location" href="/location">{t('nav.location')}</NavLink>
+              <NavLink href="/location">{t('nav.location')}</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink id="nav.registry" href="/registry">{t('nav.registry')}</NavLink>
+              <NavLink href="/registry">{t('nav.registry')}</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -54,7 +53,7 @@ const NavBar = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          {/* <Button>RSVP</Button> */}
+
         </Collapse>
       </Navbar>
     </div>
