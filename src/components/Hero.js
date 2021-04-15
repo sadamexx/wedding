@@ -18,7 +18,7 @@ const Hero = () => {
           <Col xs='12' s={{ size: 'auto', offset: 1 }}  lg='4'>
               <h1  className='heroName'>Sarah & Manuel</h1>
               <br/>
-              <p style={{color: 'white', fontWeight: '400'}}>{t('hero.tag')}</p>
+              <p style={{color: 'white', fontWeight: '400', textAlign: 'center'}}>{t('hero.tag')}</p>
             </Col>
           <Col xs='12' s="6"  lg='8'  >
           <img src={tropical} style={{width: '100%'}}/>
@@ -26,8 +26,12 @@ const Hero = () => {
         </Row>
 
         <Container style={{paddingTop: '5%'}}>
-        <Link to='/story' style={{textDecoration: 'none'}}>
-                <Row style={{paddingTop: '2%', paddingBottom: '5%'}}>                  
+        <Link
+        to='/story'
+        
+        style={{textDecoration: 'none'}}
+        >
+                <Row className='routerLink' style={{paddingTop: '2%', paddingBottom: '5%'}}>                  
                     <Col >
                         <img src={couple} style={{width: "100%"}}/>
                     </Col>
@@ -39,7 +43,7 @@ const Hero = () => {
 
 
                <Link to='/wedding' style={{textDecoration: 'none'}}>
-                <Row style={{paddingBottom: '5%'}}>
+                <Row className='routerLink' style={{paddingBottom: '5%'}}>
                     <Col xs="12" lg="6" className='d-flex align-items-center justify-content-center'>
                         <p className='clickems' style={{paddingTop: '2%'}}>{t('nav.wedding')}</p>
                     </Col>
@@ -51,7 +55,7 @@ const Hero = () => {
               </Link>
 
               <Link to='/location' style={{textDecoration: 'none'}}>
-                <Row style={{paddingTop: '2%', paddingBottom: '5%'}}>
+                <Row className='routerLink' style={{paddingTop: '2%', paddingBottom: '5%'}}>
                     <Col >
                         <img src={location} style={{width: "100%"}}/>
                     </Col>
@@ -63,7 +67,7 @@ const Hero = () => {
                 </Link>
 
                 <Link to='/registry'  style={{ textDecoration: 'none'}}>
-                <Row  style={{paddingBottom: '5%'}}>
+                <Row className='routerLink' style={{paddingBottom: '5%'}}>
                     <Col xs="12" lg="6" className='d-flex align-items-center justify-content-center'>
                         <p className='clickems' style={{paddingTop: '2%'}}>{t('nav.registry')}</p>
                     </Col>
