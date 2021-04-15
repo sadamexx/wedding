@@ -40,7 +40,7 @@ const Story = () => {
 
             <Row style={{paddingBottom: '5%'}}>
                     <Col style={{paddingTop: '3%'}}>
-                        <img src={bayahibe} style={{width: "100%"}}/>
+                        <img src={bayahibe} alt='bayahibe' style={{width: "100%"}}/>
                     </Col>
 
                     <Col style={{paddingTop: '3%'}} xs="12" lg="6" className='d-flex align-items-center justify-content-center'>
@@ -53,7 +53,7 @@ const Story = () => {
                     <p style={{paddingTop: '2%'}}>{t('story.proposal')}</p>
                 </Col> 
                 <Col style={{paddingTop: '3%'}} className='order-first order-lg-last'>
-                    <img src={proposal} style={{width: "100%"}} />
+                    <img src={proposal} alt='proposal pic' style={{width: "100%"}} />
                 </Col>                                   
             </Row>
 

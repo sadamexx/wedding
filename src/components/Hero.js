@@ -15,13 +15,13 @@ const Hero = () => {
   return (
       <Container fluid={true} className='themed-container heroContainer'>
         <Row className='nameCol'>
-          <Col xs='12' s={{ size: 'auto', offset: 1 }}  lg='4'>
+          <Col xs='12'  lg='4'>
               <h1  className='heroName'>Sarah & Manuel</h1>
               <br/>
               <p style={{color: 'white', fontWeight: '400', textAlign: 'center'}}>{t('hero.tag')}</p>
             </Col>
           <Col xs='12' s="6"  lg='8'  >
-          <img src={tropical} style={{width: '100%'}}/>
+          <img src={tropical} alt='pic of Manuel y Sarah'style={{width: '100%'}}/>
           </Col>         
         </Row>
 
@@ -33,7 +33,7 @@ const Hero = () => {
         >
                 <Row className='routerLink' style={{paddingTop: '2%', paddingBottom: '5%'}}>                  
                     <Col >
-                        <img src={couple} style={{width: "100%"}}/>
+                        <img src={couple} alt='pic of couple' style={{width: "100%"}}/>
                     </Col>
                     <Col xs="12" lg="6" className='d-flex align-items-center justify-content-center order-first order-lg-last'>
                         <p className='clickems' style={{paddingTop: '2%'}} >{t('nav.story')}</p>
@@ -49,7 +49,7 @@ const Hero = () => {
                     </Col>
 
                     <Col >
-                        <img src={wedding640} style={{width: "100%"}}/>
+                        <img src={wedding640} alt='wedding altar' style={{width: "100%"}}/>
                     </Col>
                 </Row>    
               </Link>
@@ -57,7 +57,7 @@ const Hero = () => {
               <Link to='/location' style={{textDecoration: 'none'}}>
                 <Row className='routerLink' style={{paddingTop: '2%', paddingBottom: '5%'}}>
                     <Col >
-                        <img src={location} style={{width: "100%"}}/>
+                        <img src={location} alt='canoe'style={{width: "100%"}}/>
                     </Col>
 
                     <Col xs="12" lg="6" className='d-flex align-items-center justify-content-center  order-first order-lg-last'>
@@ -73,7 +73,7 @@ const Hero = () => {
                     </Col>
 
                     <Col >
-                        <img src={gifts} style={{width: "100%"}}/>
+                        <img src={gifts} alt='wedding gifts' style={{width: "100%"}}/>
                     </Col>
                 </Row>
                 </Link> 

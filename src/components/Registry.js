@@ -13,7 +13,6 @@ import {  Container, Col, Row, Card, CardImg, CardBody,
 const Registry = () => {
     const {t, i18n } = useTranslation();
 
-
     return(
         <div style={{padding: '2% 5%'}}>
             <div>
@@ -24,7 +23,7 @@ const Registry = () => {
             <Container>
                 <Row style={{paddingTop: '2%', paddingBottom: '5%'}}>
                     <Col>
-                        <img src={plane} style={{width: "100%"}}/>
+                        <img src={plane} alt='plane' style={{width: "100%"}}/>
                     </Col>
 
                     <Col xs="12" lg="6" className='d-flex align-items-center justify-content-center'>
@@ -38,14 +37,14 @@ const Registry = () => {
                     </Col>
 
                     <Col className='order-first order-lg-last'>
-                        <img src={kitchen} style={{width: "100%"}}/>
+                        <img src={kitchen} alt='kitchen' style={{width: "100%"}}/>
                     </Col>
                 </Row>    
 
                     
                 <Row style={{paddingTop: '2%', paddingBottom: '5%'}}>
                     <Col>
-                        <img src={heart} style={{width: "100%"}}/>
+                        <img src={heart} alt='heart made from hands' style={{width: "100%"}}/>
                     </Col>
 
                     <Col xs="12" lg="6" className='d-flex align-items-center justify-content-center'>
@@ -58,7 +57,7 @@ const Registry = () => {
                 <Row style={{paddingTop: '2%'}}>
                     <Col xs="12" s="6" md="4">
                         <Card className="card-main" style={{marginTop: '20px'}}>
-                            <a target='_blank' href='https://cash.app/$sarahymanuelrd'>                          
+                            <a target='_blank' rel="noreferrer" href='https://cash.app/$sarahymanuelrd'>                          
                                 <CardImg  
                                     src={cash_sized} 
                                     alt='cashapp'
@@ -77,7 +76,7 @@ const Registry = () => {
 
                 <Col xs="12" s="6" md="4">
                     <Card className="card-main" style={{marginTop: '20px'}}>
-                        <a target='_blank' href='https://paypal.me/sadamexx209'>
+                        <a target='_blank' rel="noreferrer" href='https://paypal.me/sadamexx209'>
                             <CardImg 
                             src={paypal}                        
                             alt='paypal'
@@ -96,7 +95,7 @@ const Registry = () => {
             
                 <Col xs="12" s="6" md="4">
                     <Card className="card-main" style={{marginTop: '20px'}}>
-                    <a target='_blank' href='https://venmo.com/code?user_id=1938767657041920298'>
+                    <a target='_blank' rel="noreferrer" href='https://venmo.com/code?user_id=1938767657041920298'>
                         <CardImg 
                         src={venmo} 
                         alt='venmo'

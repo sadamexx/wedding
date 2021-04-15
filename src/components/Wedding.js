@@ -1,5 +1,4 @@
 import React from 'react';
-import quote_bkgrnd from '../assets/quote_bkgrnd.png';
 import { useTranslation } from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 import masks from '../assets/masks.png';
@@ -43,7 +42,7 @@ const Wedding = () => {
             <Container>
                 <Row style={{paddingTop: '2%', paddingBottom: '5%'}}>
                     <Col>
-                        <img src={meson} style={{width: "100%"}}/>
+                        <img src={meson} alt='restaurant' style={{width: "100%"}}/>
                     </Col>
                     <Col xs="12" lg="6" className='d-flex align-items-center justify-content-center'>
                         <p style={{paddingTop: '2%'}} >{t('wedding.venue')}</p>
@@ -56,17 +55,17 @@ const Wedding = () => {
                     </Col>
 
                     <Col className='order-first order-lg-last'>
-                        <img src={masks} style={{width: "100%"}}/>
+                        <img src={masks} alt='couple with masks on' style={{width: "100%"}}/>
                     </Col>
                 </Row>
 
                 <Row style={{paddingBottom: '5%'}}>
                     <Col >
-                        <img src={wedding} style={{width: "100%"}}/>
+                        <img src={wedding} alt='couple' style={{width: "100%"}}/>
                     </Col>
 
                     <Col xs="12" lg="6" className='d-flex align-items-center justify-content-center'>
-                        <a style={{textDecorationColor: 'black'}} target='_blank' href=''>
+                        <a style={{textDecorationColor: 'black'}} target='_blank' rel="noreferrer" href='https://zoom.us'>
                         <p style={{paddingTop: '2%'}}>{t('wedding.date')}</p>
                         </a>
                     </Col>

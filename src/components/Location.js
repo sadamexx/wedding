@@ -79,7 +79,7 @@ const Location = () => {
         <Container style={{padding: '3% 10%'}}>
           <Row style={{paddingTop: '2%', paddingBottom: '5%'}}>
             <Col>
-                <img src={flag} style={{width: "100%"}}/>
+                <img src={flag} alt='dominican flag' style={{width: "100%"}}/>
             </Col>
 
             <Col xs="12" lg="6" className='d-flex align-items-center justify-content-center'>
@@ -93,13 +93,13 @@ const Location = () => {
             </Col>
 
             <Col className='order-first order-lg-last'>
-                <img src={malecon} style={{width: "100%"}}/>
+                <img src={malecon} alt='colonial bldg' style={{width: "100%"}}/>
             </Col>
           </Row>    
 
           <Row style={{paddingTop: '2%', paddingBottom: '5%'}}>
             <Col>
-              <img src={dancing} style={{width: "100%"}}/>
+              <img src={dancing} alt='people dancing' style={{width: "100%"}}/>
             </Col>
 
             <Col xs="12" lg="6" className='d-flex align-items-center justify-content-center'>
