@@ -6,61 +6,59 @@ import flag from '../assets/flag.png';
 import malecon from '../assets/malecon.png';
 import dancing from '../assets/dancing.png';
 
-
-import beach1040 from '../assets/1040beach.png';
-import market1040 from '../assets/1040market.png';
-import puntaCana1040 from '../assets/1040puntaCana.png';
-import cave1040 from '../assets/1040cave.png';
-import temple1040 from '../assets/1040temple.png';
-import mountain1040 from '../assets/1040mountain.png';
-import fortress1040 from '../assets/1040fortress.png';
-import colon1040 from '../assets/1040colon.png';
-import boats1040 from '../assets/1040boats.png';
-import calle1040  from '../assets/1040calle.png';
+import beach640 from '../assets/640beach.png';
+import market640 from '../assets/640market.png';
+import puntaCana640 from '../assets/640puntaCana.png';
+import cave640 from '../assets/640cave.png';
+import temple640 from '../assets/640temple.png';
+import mountain640 from '../assets/640mountain.png';
+import fortress640 from '../assets/640fortress.png';
+import colon640 from '../assets/640colon.png';
+import boats640 from '../assets/640boats.png';
+import calle640  from '../assets/640calle.png';
 import {Container, Row, Col} from 'reactstrap';
 
 const items = [
   {
-    src: puntaCana1040,
+    src: puntaCana640,
     key: '1'
   },
   {
-    src: colon1040,
+    src: colon640,
     key: '2'
   },
   {
-    src: market1040,
+    src: market640,
     key: '3'
   },
   {
-    src: temple1040,
+    src: temple640,
     key: '4'
   },
   {
-    src: cave1040,
+    src: cave640,
     key: '5'
   },
   {
-    src: fortress1040,
+    src: fortress640,
     key: '6'
   },
   {
-    src: boats1040,
+    src: boats640,
     key: '7'
   },
   {
-    src: mountain1040,
+    src: mountain640,
     key: '8'
   },
   {
-    src: beach1040,
+    src: beach640,
     key: '9'
   },
   {
-    src: calle1040,
+    src: calle640,
     key: '10'
-  }
-      
+  }      
   ];
 const Location = () => {
 
